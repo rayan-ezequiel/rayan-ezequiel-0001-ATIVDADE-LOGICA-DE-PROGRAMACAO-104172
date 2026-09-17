@@ -22,7 +22,7 @@ if tipo == 'A':
         valor = A * 0.10
         print(f'Valor a ser pago: R$ {A:.2f}')
         print(f'Valor a ser pago com desconto: R$ {A - valor:.2f}')
-    elif litros < 25:
+    elif litros > 25:
         valor = A * 0.20
         print(f'Valor a ser pago: R$ {A:.2f}')
         print(f'Valor a ser pago com desconto: R$ {A - valor:.2f}')
@@ -33,7 +33,7 @@ if tipo == 'G':
         valor = G * 0.15
         print(f'Valor a ser pago: R$ {G:.2f}')
         print(f'Valor a ser pago com desconto: R$ {G - valor:.2f}')
-    elif litros < 25:
+    elif litros > 25:
         valor = G * 0.30
         print(f'Valor a ser pago sem desconto: R$ {G:.2f}')
         print(f'Valor a ser pago com desconto: R$ {G - valor:.2f}')
